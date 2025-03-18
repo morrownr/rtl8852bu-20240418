@@ -163,6 +163,10 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE_AND_INTERFACE_INFO(0x35bc, 0x0100, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* TP-LINK Archer TX20U */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x35bc, 0x0108, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* TP-LINK Archer TX20U Nano */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x7392, 0x6822, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* EDIMAX EW-7822UMX */
+
+	/*=== TPLINK 1750U Nano =======*/
+ 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDOR_ID_TPLINK, 0x0108, 0xff, 0xff, 0xff), .driver_info = RTL8852B},
+
 #endif /* CONFIG_RTL8852B */
 
 #ifdef CONFIG_RTL8852BP
