@@ -137,6 +137,7 @@ static void rtw_dev_shutdown(struct device *dev)
 
 
 #define USB_VENDER_ID_REALTEK		0x0BDA
+#define USB_VENDOR_ID_TPLINK 		0x35bc
 
 
 /* DID_USB_v916_20130116 */
