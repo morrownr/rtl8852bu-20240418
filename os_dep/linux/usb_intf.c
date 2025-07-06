@@ -163,6 +163,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE_AND_INTERFACE_INFO(0x35bc, 0x0100, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* TP-LINK Archer TX20U */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x35bc, 0x0108, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* TP-LINK Archer TX20U Nano */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x7392, 0x6822, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* EDIMAX EW-7822UMX */
+        {USB_DEVICE_AND_INTERFACE_INFO(0x2001, 0x3327, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, /* D-LINK AX18U */
 #endif /* CONFIG_RTL8852B */
 
 #ifdef CONFIG_RTL8852BP

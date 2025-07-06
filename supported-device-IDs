@@ -30,6 +30,7 @@ ID 3574:6121 COMFAST CF-943AX
 ID 35bc:0100 TP-LINK TX20U
 ID 35bc:0108 TP-LINK Archer TX20U Nano
 ID 7392:6822 EDIMAX EW-7822UMX
+ID 2001:3327 D-LINK AX18U
 
 If your adapter matches one of the default or seller specific
 IDs then this is the driver to use.
