@@ -3607,7 +3607,12 @@ static void cfg80211_rtw_abort_scan(struct wiphy *wiphy,
 }
 #endif /* LINUX_VERSION_CODE >= 4.5.0 */
 
+#if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 17, 0))
+static int cfg80211_rtw_set_wiphy_params(struct wiphy *wiphy, int radio_idx,
+		u32 changed)
+#else
 static int cfg80211_rtw_set_wiphy_params(struct wiphy *wiphy, u32 changed)
+#endif
 {
 #if 0
 	struct iwm_priv *iwm = wiphy_to_iwm(wiphy);
@@ -4680,6 +4685,9 @@ exit:
 static int cfg80211_rtw_get_txpower(struct wiphy *wiphy,
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(3, 8, 0))
 	struct wireless_dev *wdev,
+#endif
+#if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 17, 0))
+	int radio_idx,
 #endif
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 14, 0))
  	unsigned int link_id,

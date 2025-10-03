@@ -70,7 +70,7 @@ Note: Additional CPU architectures may work but have not been tested.
 ### Compatible Kernels
 
 - Kernels: 5.10 - 6.6 (Realtek)
-- Kernels: 6.7  - 6.15 (community support)
+- Kernels: 6.7  - 6.17 (community support)
 
 Note: Kernels earlier than 5.10 may work but have not been tested.
 
