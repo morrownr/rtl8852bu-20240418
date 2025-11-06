@@ -89,7 +89,7 @@ which can be provided via PR or message in Issues.
 
 - [Fedora](https://getfedora.org) Fedora 38 (6.2.13-300)
 
-- [Manjaro](https://manjaro.org) (kernel 5.15)
+- [Manjaro](https://manjaro.org) (kernels 5.15 and 6.15)
 
 - [openSUSE](https://www.opensuse.org/) Tumbleweed (rolling) (kernel 5.15)
 
@@ -129,6 +129,7 @@ Warning: The below adapters are also compatible but are multi-state
 adapters, meaning that they have an internal Windows driver, and may be
 problematic.
 
+* Archer TX1800U Nano
 * Brostrend AX1L
 * Brostrend AX4L
 * ALFA AWUS036AXER
