@@ -1,3 +1,26 @@
+Notice: This repo will be retired and removed on or about 03-01-2026. You have multiple options, all of which are better drivers than the one in this repo.
+
+1. An updated standards compliant (mac80211), in-kernel driver for rtl8852/32bu chipset based adapters and modules is available and as of kernel 6.17 is of good quality. If your distro uses kernel 6.17 or later, there is no need to install a driver. The in-kernel driver is part of the rtw88 series of drivers. The in-kernel driver is Linux Standards compliant (mac80211).
+
+2. If you use a kernel prior to 6.17, it is possible to use the new standards compliant driver by going to the following repo:
+
+https://github.com/lwfinger/rtw88
+
+If you decide to begin using the in-kernel driver, remember to first remove the driver in th the rtw88 repo.
+
+3. A newly released out-of-kernel driver is available at the following repo:
+
+
+It has been my pleasure to maintain this driver but it is time to move on to better options. Please upgrade soon.
+
+Remember: Ask not what your operating system can do for you, but what you can do for your operating system.
+
+Regards,
+
+@morrownr
+
+
+
 ## rtl8852bu ( 8852bu.ko ) :rocket:
 
 ## Linux Driver for USB WiFi Adapters that are based on the RTL8832BU and RTL8852BU Chipsets
