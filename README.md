@@ -6,7 +6,7 @@ Notice: This repo will be retired and removed on or about 03-01-2026. You have m
 
 https://github.com/lwfinger/rtw88
 
-If you decide to begin using the in-kernel driver, remember to first remove the driver in th the rtw88 repo.
+If you decide to begin using the in-kernel driver, remember to first remove the driver in the rtw88 repo.
 
 3. A newly released out-of-kernel driver is available at the following repo:
 
