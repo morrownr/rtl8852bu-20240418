@@ -10,6 +10,7 @@ If you decide to begin using the in-kernel driver, remember to first remove the 
 
 3. A newly released out-of-kernel driver is available at the following repo:
 
+https://github.com/morrownr/rtl8852bu-20250826
 
 It has been my pleasure to maintain this driver but it is time to move on to better options. Please upgrade soon.
 
